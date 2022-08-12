@@ -35,6 +35,9 @@ pip3 install base
 ```sheel
 pip3 install rng
 ```
+```shell
+pip3 install AES
+```
 ```sheel
 pip3 install crypto
 ```
