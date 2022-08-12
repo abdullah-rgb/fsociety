@@ -16,6 +16,7 @@ The fuxsocy.py script is based on Darlene's malware shown in Mr Robot
 * wheel
 * base
 * rng
+* AES
 * crypto
 * crypto-utils
 * pycrypto
