@@ -1,8 +1,8 @@
 wheel
+base
+rng
+AES
 crypto
 crypto-utils
 pycrypto
 pycryptodome
-AES
-base
-rng
