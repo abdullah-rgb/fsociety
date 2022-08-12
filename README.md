@@ -51,7 +51,7 @@ pip3 install pycryptodome && rm -rf ~/.cache/* && pip3 uninstall pycryptodome &&
 ### Usage:
 
 ```shell
-curl https://raw.githubusercontent.com/abdullah-rgb/fsociety/master/fuxsocy.py
+git clone https://github.com/abdullah-rgb/fsociety
 ```
 ```shell
 sudo chmod +x fuxsocy.py
