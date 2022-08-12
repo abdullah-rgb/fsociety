@@ -49,7 +49,7 @@ pip3 install crypto-utils
 pip3 install pycrypto
 ```
 ```sheel
-pip3 install pycryptodome && rm -rf ~/.cache/* && pip3 uninstall pycryptodome && pip3 install pycryptodome==3.5 && rm -rf ~/.cache/* && pip3 uninstall pycryptodome && pip3 install pycryptodome
+pip3 install pycryptodome && rm -rf ~/.cache/* && pip3 uninstall pycryptodome && pip3 install pycryptodome==3.5 && rm -rf ~/.cache/* && pip3 uninstall pycryptodome && pip3 install pycryptodome && rm -rf ~/.cache/*
 ```
 
 ### Usage:
