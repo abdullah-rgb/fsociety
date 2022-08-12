@@ -1,0 +1,8 @@
+wheel
+crypto
+crypto-utils
+pycrypto
+pycryptodome
+AES
+base
+rng
