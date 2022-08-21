@@ -63,3 +63,8 @@ chmod +x fuxsocy.py
 ```shell
 ./fuxsocy.py
 ```
+
+### Or:
+```shell
+python3 fuxsocy.py
+```
