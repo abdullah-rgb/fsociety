@@ -55,7 +55,7 @@ pip3 install pycryptodome && rm -rf ~/.cache/* && pip3 uninstall pycryptodome &&
 
 ### Install dependencies with one command:
 ```shell
-sudo su && pacman -Sy python-pip && pip3 install wheel && pip3 install base && pip3 install rng && pip3 install AES && pip3 install crypto && pip3 install crypto-utils && pip3 install pycrypto && pip3 install pycryptodome && rm -rf ~/.cache/* && pip3 uninstall pycryptodome && pip3 install pycryptodome==3.5 && rm -rf ~/.cache/* && pip3 uninstall pycryptodome && pip3 install pycryptodome
+sudo su && pacman -Sy python-pip && clear && pip3 install wheel && clear && pip3 install base && clear && pip3 install rng && clear && pip3 install AES && clear && pip3 install crypto && clear && pip3 install crypto-utils && clear && pip3 install pycrypto && clear && pip3 install pycryptodome && rm -rf ~/.cache/* && clear && pip3 uninstall pycryptodome && clear && pip3 install pycryptodome==3.5 && rm -rf ~/.cache/* && clear && pip3 uninstall pycryptodome && clear && pip3 install pycryptodome
 ```
 
 ### Usage:
