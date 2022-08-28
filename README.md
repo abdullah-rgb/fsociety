@@ -58,8 +58,6 @@ pip3 install pycryptodome && rm -rf ~/.cache/* && pip3 uninstall pycryptodome &&
 sudo su && pacman -Sy python-pip && pip3 install wheel && pip3 install base && pip3 install rng && pip3 install AES && pip3 install crypto && pip3 install crypto-utils && pip3 install pycrypto && pip3 install pycryptodome && rm -rf ~/.cache/* && pip3 uninstall pycryptodome && pip3 install pycryptodome==3.5 && rm -rf ~/.cache/* && pip3 uninstall pycryptodome && pip3 install pycryptodome
 ```
 
-#####################################
-
 ### Usage:
 
 ```shell
