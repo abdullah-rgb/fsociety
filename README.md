@@ -33,7 +33,7 @@ pacman -S python python-pip
 ```shell
 apt install python3 python3-pip
 ```
-
+## Dependencies
 ```shell
 pip3 install wheel
 ```
