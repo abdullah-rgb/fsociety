@@ -59,7 +59,12 @@ pip3 install pycrypto
 pip3 install pycryptodome && rm -rf ~/.cache/* && pip3 uninstall pycryptodome && pip3 install pycryptodome==3.5 && rm -rf ~/.cache/* && pip3 uninstall pycryptodome && pip3 install pycryptodome && rm -rf ~/.cache/*
 ```
 
-### Install dependencies with one command:
+### Install dependencies with one command on Arch Linux:
+```shell
+sudo su && pacman -Sy python-pip && clear && pip3 install wheel && clear && pip3 install base && clear && pip3 install rng && clear && pip3 install AES && clear && pip3 install crypto && clear && pip3 install crypto-utils && clear && pip3 install pycrypto && clear && pip3 install pycryptodome && rm -rf ~/.cache/* && clear && pip3 uninstall pycryptodome && clear && pip3 install pycryptodome==3.5 && rm -rf ~/.cache/* && clear && pip3 uninstall pycryptodome && clear && pip3 install pycryptodome
+```
+
+### Install dependencies with one command on Debian/Ubuntu Linux:
 ```shell
 sudo su && pacman -Sy python-pip && clear && pip3 install wheel && clear && pip3 install base && clear && pip3 install rng && clear && pip3 install AES && clear && pip3 install crypto && clear && pip3 install crypto-utils && clear && pip3 install pycrypto && clear && pip3 install pycryptodome && rm -rf ~/.cache/* && clear && pip3 uninstall pycryptodome && clear && pip3 install pycryptodome==3.5 && rm -rf ~/.cache/* && clear && pip3 uninstall pycryptodome && clear && pip3 install pycryptodome
 ```
