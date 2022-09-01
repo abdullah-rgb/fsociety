@@ -25,9 +25,15 @@ The fuxsocy.py script is based on Darlene's malware shown in Mr Robot
 ```shell
 sudo su
 ```
+## For Arch Linux
 ```shell
 pacman -S python python-pip
 ```
+## For Debian/Ubuntu Linux
+```shell
+apt install python3 python3-pip
+```
+
 ```shell
 pip3 install wheel
 ```
