@@ -13,6 +13,7 @@ The fuxsocy.py script is based on Darlene's malware shown in Mr Robot
 ### Dependencies:
 
 * python3
+* python3-pip
 * wheel
 * base
 * rng
@@ -82,6 +83,7 @@ chmod +x fuxsocy.py
 ```
 
 ### Or:
+
 ```shell
 python3 fuxsocy.py
 ```
